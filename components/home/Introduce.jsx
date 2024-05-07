@@ -1,4 +1,4 @@
-import Ido from "@/components/Ido";
+import Ido from "@/components/home/Ido";
 
 export default function Introduce() {
     return (

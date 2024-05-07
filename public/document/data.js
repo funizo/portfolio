@@ -3,15 +3,17 @@ const data = [
         id: "React",
         comment1: "-함수형 컴포넌트를 사용합니다.",
         comment2: "-재사용성을 고려하여 컴포넌트를 제작합니다.",
-        comment3: "-유용한 라이브러리를 사용하는것을 좋아합니다.",
+        comment3: "-React Hook을 상황에 맞게 사용합니다.",
         img: "/image/React.svg",
+        url: "/react",
     },
     {
         id: "NextJs",
         comment1: "-NextJs의 장점을 고려해 코딩합니다.",
-        comment2: "-SSR을 구현한 경험이 있습니다.",
-        comment3: "-현재 페이지도 NextJs로 만들었습니다.",
+        comment2: "-SSR과 CSR 의 차이를 알고, 상황에 맞게 코딩합니다.",
+
         img: "/image/NextJs.svg",
+        url: "/nextjs",
     },
     {
         id: "Tailwind",
@@ -21,7 +23,7 @@ const data = [
         img: "/image/Tailwind.svg",
     },
     {
-        id: "Nodejs",
+        id: "NodeJs",
         comment1: "-Nodejs와 Express를 사용하여 서버와 통신 할 수 있습니다.",
         commnet2:
             "-간단한 API를 제작하여 서버에서 받아온 데이터를 처리 할 수 있습니다.",

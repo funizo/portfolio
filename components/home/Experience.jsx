@@ -23,14 +23,14 @@ export default function Experience() {
                             프론트엔드 개발자
                         </p>
                         <p className="font-semibold text-sm text-gray-500 mb-2">
-                            2024.03 ~ 현재
+                            2024.03 ~ 2024.05
                         </p>
                         <div className="text-gray-700">
                             <p>
                                 초기 맴버로 Batal의 Motion Mvp를 개발
                                 하였습니다.
                             </p>
-                            <p>NextJs로 제작하였습니다.</p>
+                            <p>로직 개발과 컴포넌트 제작에 참여 하였습니다.</p>
                         </div>
                     </div>
                 </div>

@@ -1,14 +1,19 @@
+"use client";
+
 import Image from "next/image";
-import Link from "next/link";
 import Data from "@/public/document/data";
+import { useRouter } from "next/navigation";
 
 export default function Ido() {
+    const router = useRouter();
+
     return (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4">
             {Data.map((a, i) => (
                 <div
                     key={i}
                     className="h-[200px] border border-gray-300 p-2 hover:border-green-500 cursor-pointer"
+                    onClick={() => router.push(a.url)}
                 >
                     <div className="w-12 h-12 mb-2 flex space-x-2">
                         <Image
@@ -28,7 +33,6 @@ export default function Ido() {
                             />
                         )}
                     </div>
-
                     <h1 className="font-bold mb-1">{a.id}</h1>
                     <div className="text-sm">
                         <p>{a.comment1}</p>

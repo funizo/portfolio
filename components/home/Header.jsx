@@ -39,24 +39,24 @@ export default function Header() {
                     Frontend-Developer
                 </p>
                 <div className="mt-2  font-semibold text-gray-600 ">
-                    <p>새로운 기술이 무조건 좋다고 생각하지 않습니다.</p>
                     <p>
-                        때에 알맞는 코드를 사용하는것이 가장 중요하다고
-                        생각합니다.
+                        어떠한 기술, 기능을 사용할 때 왜 사용하는지 설명 할 수
+                        있는
                     </p>
+                    <p>개발자가 TOP 개발자라고 생각합니다.</p>
                 </div>
                 <div className="mt-5 space-y-2">
-                    <div className="flex">
-                        <Link href="https://github.com/funizo">
+                    <Link href="https://github.com/funizo">
+                        <div className="flex">
                             <Image
-                                src="/image/github.png"
+                                src="/image/other/github.png"
                                 width={24}
                                 height={24}
                                 alt="github"
                             />
-                        </Link>
-                        <p className="font-semibold ml-2 ">Github</p>
-                    </div>
+                            <p className="font-semibold ml-2 ">Github</p>
+                        </div>
+                    </Link>
                     <p className="font-semibold">📞 010-0000-0000</p>
                     <p
                         className="font-semibold cursor-pointer"

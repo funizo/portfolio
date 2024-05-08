@@ -10,7 +10,7 @@ export default function Experience() {
                 <div className="flex border-b border-gray-300 pb-5">
                     <div className="mt-2">
                         <Image
-                            src="/image/batal.svg"
+                            src="/image/other/batal.svg"
                             width={60}
                             height={60}
                             alt="batal"
@@ -23,7 +23,7 @@ export default function Experience() {
                             프론트엔드 개발자
                         </p>
                         <p className="font-semibold text-sm text-gray-500 mb-2">
-                            2024.03 ~ 2024.05
+                            2024.03 ~ 2024.05 (인턴)
                         </p>
                         <div className="text-gray-700">
                             <p>
@@ -37,7 +37,7 @@ export default function Experience() {
                 <div className="flex border-b border-gray-300 pb-5">
                     <div>
                         <Image
-                            src="/image/hyundai.png"
+                            src="/image/other/hyundai.png"
                             width={60}
                             height={60}
                             alt="hyundai"
@@ -57,7 +57,7 @@ export default function Experience() {
                 <div className="flex border-b border-gray-300 pb-5">
                     <div>
                         <Image
-                            src="/image/bag.svg"
+                            src="/image/other/bag.svg"
                             width={60}
                             height={60}
                             alt="hyundai"

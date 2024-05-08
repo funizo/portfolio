@@ -8,7 +8,7 @@ const noto = Noto_Sans_KR({
 
 export const metadata = {
     title: "김세준의 포트폴리오",
-    description: "감사합니다",
+    description: "신입 프론트엔드 개발자 김세준입니다.",
 };
 
 export default function RootLayout({ children }) {

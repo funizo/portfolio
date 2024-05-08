@@ -10,7 +10,7 @@ export default function Edu() {
                 <div className="flex border-b border-gray-300 pb-5">
                     <div className="mt-2">
                         <Image
-                            src="/image/inha.jpg"
+                            src="/image/other/inha.jpg"
                             width={60}
                             height={60}
                             alt="Inha"
@@ -30,7 +30,7 @@ export default function Edu() {
                 <div className="flex border-b border-gray-300 pb-5">
                     <div className="mt-2">
                         <Image
-                            src="/image/multi.webp"
+                            src="/image/other/multi.webp"
                             width={60}
                             height={10}
                             alt="multi"

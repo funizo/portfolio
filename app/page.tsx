@@ -4,11 +4,11 @@ import Experience from "@/components/home/Experience";
 import Edu from "@/components/home/Edu";
 export default function Home() {
     return (
-        <div className="">
+        <main>
             <Header />
             <Introduce />
             <Experience />
             <Edu />
-        </div>
+        </main>
     );
 }
